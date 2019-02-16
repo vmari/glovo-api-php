@@ -1,0 +1,29 @@
+{
+  "name": "valentinmari/glovo-php-api",
+  "description": "Glovo Business API",
+  "keywords": [
+    "glovo",
+    "delivery",
+    "api"
+  ],
+  "homepage": "https://business.glovoapp.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Valentin Mari <valentinmari@hotmail.com>",
+      "homepage": "https://github.com/vmari/glovo-php"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "emcconville/google-map-polyline-encoding-tool": ">=1.2.1",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Glovo\\": "lib/"
+    }
+  }
+}

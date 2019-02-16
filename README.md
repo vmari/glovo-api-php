@@ -11,7 +11,7 @@ PHP 5.4.0 and later.
 You can install the bindings via [Composer](http://getcomposer.org/). Run the following command:
 
 ```bash
-composer require valentinmari/glovo-php
+$ composer require valentinmari/glovo-api-php
 ```
 
 To use the Glovo API in your project, use Composer's [autoload](https://getcomposer.org/doc/01-basic-usage.md#autoloading):
@@ -76,6 +76,14 @@ $orderInfo = $api->createOrder( $order );
 echo "Order created, ID: {$orderInfo['id']}, state: {$orderInfo['state']} \n";
 ```
 See full example in [example.php](example.php)
+
+## Update Certificates
+
+In order to update the CA Root certificates you can run:
+```
+$ chmod +x ./update_certs.php
+$ ./update_certs.php
+```
 
 ## Documentation
 

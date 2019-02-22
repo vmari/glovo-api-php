@@ -34,8 +34,8 @@ If you use Composer, these dependencies should be handled automatically. If you 
 
 Create an account in Glovo (it can be created from the App). This api **needs a credit card associated to your account**. You can add one from your app and it will be used automatically for any order. In order to get your API credentials you should login in the desired environment and go to *Credentials* section on your profile.
 
-* [B2B Production](glovo-prod)
-* [B2B Sandbox/Test](glovo-stag)
+* [B2B Production](https://business.glovoapp.com/dashboard/profile)
+* [B2B Sandbox/Test](https://business.testglovo.com/dashboard/profile)
 
 Example ApiKey & ApiSecret:
 ```php
@@ -87,11 +87,8 @@ $ ./update_certs.php
 
 ## Documentation
 
-You can read [the Glovo B2B API docs][glovodocs].
+You can read [the Glovo B2B API docs][https://api-docs.glovoapp.com/b2b/index.html#introduction].
 
-[glovo-prod]: https://business.glovoapp.com/dashboard/profile
-[glovo-stag]: https://business.testglovo.com/dashboard/profile
-[glovodocs]: https://api-docs.glovoapp.com/b2b/index.html#introduction
 [composer]: https://getcomposer.org/
 [curl]: http://curl.haxx.se/docs/caextract.html
 [psr3]: http://www.php-fig.org/psr/psr-3/
